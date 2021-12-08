@@ -15,11 +15,10 @@
     margin: 0 auto;
 }
 
-.semiFooterContrainer{
+.assistContrainer{
     padding: 0 200px;
     max-width: 1820px;
     margin: 0 auto;
-    background-color: black;
 }
 
 .rounded-button {
@@ -38,6 +37,9 @@
     border: 2px solid #E20016;
 }
 
+.text-roadmap {
+    color: #01008A;
+}
 .pt-273p{
     padding-top: 223px;
 }
@@ -61,4 +63,32 @@
 
 .radius45 {
     border-radius: 45px;
+}
+
+.roadmapBox {
+    width: 100%;
+    height: 190px;
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.05), 2px 2px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 45px;
+    padding: 32px;
+}
+
+.mt-52 {
+    margin-top: 13rem;
+}
+
+.mt-18 {
+    margin-top: 4.5rem;
+}
+
+.mt-38 {
+    margin-top: 9.5rem;
+}
+
+.mt-42 {
+    margin-top: 10.5rem;
+}
+
+.roadmap {
+    height: 88rem;
 }
