@@ -1,0 +1,64 @@
+.header {
+    height: 100px;
+    width: 100%;
+}
+
+.mainContrainer {
+    padding: 0 50px;
+    max-width: 1820px;
+    margin: 0 auto;
+}
+
+.dashboardContrainer{
+    padding: 0 90px;
+    max-width: 1820px;
+    margin: 0 auto;
+}
+
+.semiFooterContrainer{
+    padding: 0 200px;
+    max-width: 1820px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.rounded-button {
+    border-radius: 24px;
+}
+
+.bg-red-site {
+    background-color: #E20016;
+}
+
+.text-red-site {
+    color: #E20016;
+}
+
+.border-red-site {
+    border: 2px solid #E20016;
+}
+
+.pt-273p{
+    padding-top: 223px;
+}
+
+.text-7-5xl{
+    font-size: 5rem;
+    line-height: 114px;
+}
+
+.feature-box {
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.05), 2px 2px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 45px;
+}
+
+.featureBox {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.radius45 {
+    border-radius: 45px;
+}
