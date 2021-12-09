@@ -43,7 +43,10 @@ import telegram from "./assets/img/connect/telegram.svg";
 import twitter from "./assets/img/connect/twitter.svg";
 import location from "./assets/img/connect/location.svg";
 import footerLogo from "./assets/img/footerLogo.svg";
-import bg1 from "./assets/img/background/2.svg";
+import bg1 from "./assets/img/background/1.svg";
+import bg2 from "./assets/img/background/2.svg";
+import bg3 from "./assets/img/background/3.svg";
+import bg4 from "./assets/img/background/4.svg";
 
 function App() {
   return (
@@ -274,13 +277,16 @@ function App() {
       </div>
       <div className="assistContrainer">
         <div>
-          <img scr={bg1} alt="bg1" />
+          <img src={bg1} alt="bg1" className="bg1" />
+        </div>
+        <div>
+          <img src={bg2} alt="bg2" className="bg2" />
         </div>
         <div className="text-black text-7-5xl font-bold text-center py-32">
           Our Roadmap
         </div>
         <div className="flex justify-center w-full">
-          <div className="w-5/12">
+          <div className="w-5/12 z-10">
             <div className="roadmapBox">
               <div className="flex items-center">
                 <div>
@@ -462,6 +468,9 @@ function App() {
         </div>
       </div>
       <div className="mainContrainer h-auto w-full">
+        <div>
+          <img src={bg3} alt="bg3" className="bg3" />
+        </div>
         <div className="pt-64">
           <div className="text-7-5xl text-center font-bold">
             Frequency Asked Questions
@@ -470,8 +479,8 @@ function App() {
             <section class="text-gray-700">
               <div class="py-24 mx-auto">
                 <div class="flex sm:mx-auto sm:mb-2 -mx-2">
-                  <div class="w-full px-4 py-2">
-                    <details class="mb-4 p-4 faq-box">
+                  <div class="w-full px-4 py-2 z-10">
+                    <details class="mb-4 p-4 faq-box bg-white">
                       <summary class="font-bold rounded-md py-2 text-3xl cursor-pointer">
                         Can american citizen take part in the crowdsale?
                       </summary>
@@ -487,7 +496,7 @@ function App() {
                         browsers perform just-in-time compilation.
                       </span>
                     </details>
-                    <details class="mb-4 p-4 faq-box">
+                    <details class="mb-4 p-4 faq-box bg-white">
                       <summary class="font-bold rounded-md py-2 text-3xl cursor-pointer">
                         Can american citizen take part in the crowdsale?
                       </summary>
@@ -503,7 +512,7 @@ function App() {
                         browsers perform just-in-time compilation.
                       </span>
                     </details>
-                    <details class="mb-4 p-4 faq-box">
+                    <details class="mb-4 p-4 faq-box bg-white">
                       <summary class="font-bold rounded-md py-2 text-3xl cursor-pointer">
                         Can american citizen take part in the crowdsale?
                       </summary>
@@ -519,7 +528,7 @@ function App() {
                         browsers perform just-in-time compilation.
                       </span>
                     </details>
-                    <details class="mb-4 p-4 faq-box">
+                    <details class="mb-4 p-4 faq-box bg-white">
                       <summary class="font-bold rounded-md py-2 text-3xl cursor-pointer">
                         Can american citizen take part in the crowdsale?
                       </summary>
@@ -839,6 +848,9 @@ function App() {
 
       {/* Company in media */}
       <div className="mediaContainer">
+        <div>
+          <img src={bg4} alt="bg4" className="bg4" />
+        </div>
         <div className="pt-64">
           <div className="text-7-5xl font-bold text-center">
             Company in media
