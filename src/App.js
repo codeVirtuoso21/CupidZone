@@ -63,7 +63,7 @@ function App() {
       </div>
       <div className="dashboardContrainer flex justify-content h-auto w-full">
         <div className="w-1/2">
-          <div className="text-red-site font-bold pt-273p text-7-5xl w-2/3 sm:text-xl">
+          <div className="text-red-site font-bold pt-273p text-7-5xl w-2/3">
             Cupid Zone Dating Apps
           </div>
           <div className="font-normal text-3xl pt-2 w-2/3">
@@ -220,11 +220,10 @@ function App() {
               <div>
                 <img src={whitepaper} alt="whitepaper" />
               </div>
-              <div className="text-white">
+              <div className="text-white w-3/4">
                 <div className="font-bold text-7-5xl">
-                  Downoad Our Whitepaper
+                  Downoad Our Whitepaper & Other Documents
                 </div>
-                <div className="font-bold text-7-5xl">& Other Documents</div>
                 <div className="pt-12 font-normal text-xl">
                   <div>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -243,16 +242,16 @@ function App() {
               </div>
             </div>
             <div className="flex justify-between pt-24">
-              <div className="border-red-site bg-white text-red-site rounded-button text-xl p-4 px-24 ml-8 font-bold cursor-pointer">
+              <div className="border-red-site bg-white text-red-site rounded-button text-xl p-4 px-24 font-bold cursor-pointer">
                 Whitepaper
               </div>
-              <div className="border-red-site bg-white text-red-site rounded-button text-xl p-4 px-24 ml-8 font-bold cursor-pointer">
+              <div className="border-red-site bg-white text-red-site rounded-button text-xl p-4 px-24 mr-4 ml-8 font-bold cursor-pointer">
                 Terms & Condition
               </div>
-              <div className="border-red-site bg-white text-red-site rounded-button text-xl p-4 px-24 ml-8 font-bold cursor-pointer">
+              <div className="border-red-site bg-white text-red-site rounded-button text-xl p-4 px-24 mr-8 ml-4 font-bold cursor-pointer">
                 Privacy Policy
               </div>
-              <div className="border-red-site bg-white text-red-site rounded-button text-xl p-4 px-24 ml-8 font-bold cursor-pointer">
+              <div className="border-red-site bg-white text-red-site rounded-button text-xl p-4 px-24 font-bold cursor-pointer">
                 Business Profile
               </div>
             </div>
@@ -278,8 +277,6 @@ function App() {
       <div className="assistContrainer">
         <div>
           <img src={bg1} alt="bg1" className="bg1" />
-        </div>
-        <div>
           <img src={bg2} alt="bg2" className="bg2" />
         </div>
         <div className="text-black text-7-5xl font-bold text-center py-32">
@@ -359,7 +356,7 @@ function App() {
           <div className="w-1/6 flex justify-center mt-8">
             <img src={roadmap} alt="roadmap" className="roadmap" />
           </div>
-          <div className="w-5/12 mt-8">
+          <div className="w-5/12 mt-8 z-10">
             <div className="text-7-5xl text-roadmap font-semibold">Phase1</div>
             <div className="roadmapBox mt-52">
               <div className="flex items-center">
@@ -476,12 +473,12 @@ function App() {
             Frequency Asked Questions
           </div>
           <div>
-            <section class="text-gray-700">
-              <div class="py-24 mx-auto">
-                <div class="flex sm:mx-auto sm:mb-2 -mx-2">
-                  <div class="w-full px-4 py-2 z-10">
-                    <details class="mb-4 p-4 faq-box bg-white">
-                      <summary class="font-bold rounded-md py-2 text-3xl cursor-pointer">
+            <section className="text-gray-700">
+              <div className="py-24 mx-auto">
+                <div className="flex sm:mx-auto sm:mb-2 -mx-2">
+                  <div className="w-full px-4 py-2 z-10">
+                    <details className="mb-4 p-4 faq-box bg-white">
+                      <summary className="font-bold rounded-md py-2 text-3xl cursor-pointer">
                         Can american citizen take part in the crowdsale?
                       </summary>
                       <span className="text-xl">
@@ -496,8 +493,8 @@ function App() {
                         browsers perform just-in-time compilation.
                       </span>
                     </details>
-                    <details class="mb-4 p-4 faq-box bg-white">
-                      <summary class="font-bold rounded-md py-2 text-3xl cursor-pointer">
+                    <details className="mb-4 p-4 faq-box bg-white">
+                      <summary className="font-bold rounded-md py-2 text-3xl cursor-pointer">
                         Can american citizen take part in the crowdsale?
                       </summary>
                       <span className="text-xl">
@@ -512,8 +509,8 @@ function App() {
                         browsers perform just-in-time compilation.
                       </span>
                     </details>
-                    <details class="mb-4 p-4 faq-box bg-white">
-                      <summary class="font-bold rounded-md py-2 text-3xl cursor-pointer">
+                    <details className="mb-4 p-4 faq-box bg-white">
+                      <summary className="font-bold rounded-md py-2 text-3xl cursor-pointer">
                         Can american citizen take part in the crowdsale?
                       </summary>
                       <span className="text-xl">
@@ -528,8 +525,8 @@ function App() {
                         browsers perform just-in-time compilation.
                       </span>
                     </details>
-                    <details class="mb-4 p-4 faq-box bg-white">
-                      <summary class="font-bold rounded-md py-2 text-3xl cursor-pointer">
+                    <details className="mb-4 p-4 faq-box bg-white">
+                      <summary className="font-bold rounded-md py-2 text-3xl cursor-pointer">
                         Can american citizen take part in the crowdsale?
                       </summary>
                       <span className="text-xl">
