@@ -71,10 +71,10 @@ function App() {
             libero feugiat, faucibus libero id, scelerisque quam
           </div>
           <div className="flex pt-8">
-            <div className="flex justify-center items-center bg-red-site text-white rounded-button text-xl p-4 px-24 font-bold cursor-pointer">
+            <div className="flex justify-center items-center bg-red-site shadow-2xl text-white rounded-button text-xl p-4 px-24 font-bold cursor-pointer">
               Whitepaper
             </div>
-            <div className="flex justify-center items-center border-red-site text-red-site rounded-button text-xl p-4 px-24 ml-8 font-bold cursor-pointer">
+            <div className="flex justify-center items-center border-red-site shadow-2xl text-red-site rounded-button text-xl p-4 px-24 ml-8 font-bold cursor-pointer">
               Buy Token
             </div>
           </div>
@@ -551,7 +551,7 @@ function App() {
 
       {/* Awesome Team */}
       <div className="mainContrainer h-auto w-full">
-        <div className="mt-32 bg-red-site radius45">
+        <div className="mt-32 bg-red-site radius45 shadow-2xl">
           <div className="py-12 px-32">
             <div className="text-white text-7-5xl font-bold">Awesome Team</div>
             <div className="pt-12">
