@@ -4,15 +4,19 @@
 }
 
 .mainContrainer {
-    padding: 0 50px;
     max-width: 1920px;
-    margin: 0 auto;
 }
 
-.dashboardContrainer{
+.px-90p {
     padding: 0 90px;
-    max-width: 1920px;
-    margin: 0 auto;
+}
+
+.lg\:px-90p {
+    padding: 0 90px;
+}
+
+.lh-50p {
+    line-height: 50px;
 }
 
 .assistContrainer{
@@ -68,6 +72,9 @@
 .pt-273p {
     padding-top: 223px;
 }
+.sm\:pt-273p {
+    padding-top: 223px;
+}
 
 .pt-150p {
     padding-top: 150px;
@@ -121,6 +128,15 @@
     background-color: white;
 }
 
+.roadmapBox-mobile {
+    width: 100%;
+    height: auto;
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.05), 2px 2px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
 .mt-52 {
     margin-top: 13rem;
 }
@@ -139,10 +155,6 @@
 
 .roadmap {
     height: 88rem;
-}
-
-.m-center {
-    margin: 0 auto;
 }
 
 .text-gray-site {
@@ -177,7 +189,7 @@ input::placeholder, textarea::placeholder {
 
 .bg1 {
     position: absolute;
-    margin-left: -13rem;
+    left: 0;
     margin-top: 6rem;
 }
 
