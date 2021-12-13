@@ -183,8 +183,8 @@ input::placeholder, textarea::placeholder {
 
 .bg2 {
     position: absolute;
-    margin-left: 94rem;
     margin-top: 21rem;
+    right: 0;
 }
 
 .bg3 {
@@ -194,5 +194,9 @@ input::placeholder, textarea::placeholder {
 
 .bg4 {
     position: absolute;
-    margin-left: 88.3rem;
+    right: 0;
+}
+
+.w150p {
+    width: 150px;
 }

@@ -242,16 +242,16 @@ function App() {
               </div>
             </div>
             <div className="flex justify-between pt-24">
-              <div className="border-red-site bg-white text-red-site rounded-button text-xl p-4 px-24 font-bold cursor-pointer">
+              <div className="border-red-site bg-white py-2 px-4 flex justify-center items-center text-red-site rounded-button text-xl font-bold cursor-pointer">
                 Whitepaper
               </div>
-              <div className="border-red-site bg-white text-red-site rounded-button text-xl p-4 px-24 mr-4 ml-8 font-bold cursor-pointer">
+              <div className="border-red-site bg-white py-2 px-4 flex justify-center items-center text-red-site rounded-button text-xl mr-4 ml-8 font-bold cursor-pointer">
                 Terms & Condition
               </div>
-              <div className="border-red-site bg-white text-red-site rounded-button text-xl p-4 px-24 mr-8 ml-4 font-bold cursor-pointer">
+              <div className="border-red-site bg-white py-2 px-4 flex justify-center items-center text-red-site rounded-button text-xl mr-8 ml-4 font-bold cursor-pointer">
                 Privacy Policy
               </div>
-              <div className="border-red-site bg-white text-red-site rounded-button text-xl p-4 px-24 font-bold cursor-pointer">
+              <div className="border-red-site bg-white py-2 px-4 flex justify-center items-center text-red-site rounded-button text-xl font-bold cursor-pointer">
                 Business Profile
               </div>
             </div>
@@ -274,7 +274,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="assistContrainer">
+      <div className="assistContrainer relative">
         <div>
           <img src={bg1} alt="bg1" className="bg1" />
           <img src={bg2} alt="bg2" className="bg2" />
@@ -844,7 +844,7 @@ function App() {
       </div>
 
       {/* Company in media */}
-      <div className="mediaContainer">
+      <div className="mediaContainer relative">
         <div>
           <img src={bg4} alt="bg4" className="bg4" />
         </div>
