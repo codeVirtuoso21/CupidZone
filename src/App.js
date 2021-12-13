@@ -1312,7 +1312,7 @@ function App() {
               <div className="pt-2 cursor-pointer">Brand Resources</div>
             </div>
             <div className="lg:flex lg:justify-between lg:items-center">
-              <div className="downloadWords cursor-pointer m-auto lg:pt-0 pt-8">
+              <div className="downloadWords cursor-pointer m-auto lg:pt-0 pt-8 lg:text-left text-center">
                 Download Application
               </div>
               <div className="lg:pt-0 pt-8">
