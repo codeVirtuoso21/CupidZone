@@ -225,6 +225,9 @@ function App() {
             <div className="text-black lg:text-6xl text-4xl font-bold  text-center lg:text-left">
               Download App
             </div>
+            <div className="lg:hidden block w-full">
+              <img src={phone} alt="phone" />
+            </div>
             <div className="font-normal text-xl pt-16 text-center lg:text-left">
               From its inception, Shiba Inu has done things differently.
               Starting with a supply of 1 quadrillion, our founder, Ryoshi,
@@ -245,7 +248,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="lg:w-1/2 w-full">
+          <div className="lg:w-1/2 lg:block hidden w-full">
             <img src={phone} alt="phone" />
           </div>
         </div>
@@ -256,7 +259,7 @@ function App() {
         <div className="pt-32">
           <div className="bg-red-site radius45 lg:p-24 p-4">
             <div className="lg:flex">
-              <div className="lg:w-2/5">
+              <div className="lg:w-2/5 lg:pt-0 pt-10">
                 <img src={whitepaper} alt="whitepaper" className="w-full" />
               </div>
               <div className="text-white lg:w-4/5 w-full lg:pl-8">
@@ -1058,7 +1061,7 @@ function App() {
             Company in media
           </div>
           <div className="lg:flex lg:justify-between pt-16">
-            <div className="lg:w-1/3 w-full text-center feature-box h-auto lg:mt-0 mt-8">
+            <div className="lg:w-1/3 w-full text-center feature-box h-auto lg:mt-0 mt-8 relative">
               <div className="p-3 w-full flex justify-content">
                 <img
                   src={companyMedia1}
@@ -1212,25 +1215,25 @@ function App() {
           <div className="lg:flex">
             <div className="lg:w-5/12 w-full text-white lg:text-left text-center">
               <div className="lg:text-6xl text-5xl font-bold">Get in Touch</div>
-              <div className="flex pt-16 items-center lg:justify-start justify-center">
+              <div className="flex pt-16 items-center lg:justify-start">
                 <div>
                   <img src={location} alt="location" />
                 </div>
-                <div className="pl-4 text-xl">
+                <div className="pl-6 text-xl text-left">
                   523 Sylvan Ave, 5th Floor Mountain View, CA
                 </div>
               </div>
-              <div className="flex pt-8 items-center lg:justify-start justify-center">
+              <div className="flex pt-8 items-center lg:justify-start">
                 <div>
                   <img src={connectPhone} alt="connectPhone" />
                 </div>
-                <div className="pl-4 text-xl">+1 987 654 3210</div>
+                <div className="pl-6 text-xl text-left">+1 987 654 3210</div>
               </div>
-              <div className="flex pt-8 items-center lg:justify-start justify-center">
+              <div className="flex pt-8 items-center lg:justify-start">
                 <div>
                   <img src={mail} alt="mail" />
                 </div>
-                <div className="pl-4 text-xl">info@cupidzone.com</div>
+                <div className="pl-4 text-xl text-left">info@cupidzone.com</div>
               </div>
               <div className="lg:text-5xl text-4xl font-bold pt-20">
                 Stay connected:
