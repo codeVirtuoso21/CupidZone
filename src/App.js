@@ -127,7 +127,7 @@ function App() {
             <div className="mt-8 text-xl pb-12">
               <div>Lorem ipsum dolor sit amet, consectetur</div>
               <div>adipiscing elit. Sed eget libero feugiat,</div>
-              <div>faucibus libero id, scelerisque quam</div>
+              <div>faucibus libero id, scelerise quam</div>
             </div>
           </div>
           <div className="lg:w-1/3 w-full lg:mt-0 mt-4 text-center feature-box h-auto lg:mx-4">
