@@ -686,11 +686,6 @@ function App() {
                       <span className="text-xl">
                         JavaScript is also used in environments that aren’t
                         web-based, such as PDF documents, site-specific
-                        browsers, and desktop widgets. Newer and faster
-                        JavaScript virtual machines (VMs) and platforms built
-                        upon them have also increased the popularity of
-                        JavaScript for server-side web applications. On the
-                        client side, JavaScript has been traditionally
                         implemented as an interpreted language, but more recent
                         browsers perform just-in-time compilation.
                       </span>
